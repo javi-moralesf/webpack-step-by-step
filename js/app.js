@@ -1,3 +1,5 @@
+require('raw!../views/hello.html');
+
 require('todomvc-common/base.js');
 require('helpers');
 require('store');

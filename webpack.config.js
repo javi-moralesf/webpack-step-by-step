@@ -8,5 +8,11 @@ module.exports = {
     },
     resolve: {
         modulesDirectories: ['.', 'node_modules'],
+    },
+    module: {
+        loaders: [
+            {test: /\.html$/, loaders: ['raw'], exclude: /node_modules/}
+        ]
     }
-}
+
+};
