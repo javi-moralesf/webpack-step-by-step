@@ -1,7 +1,15 @@
 {
   "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
   "dependencies": {
     "todomvc-common": "^1.0.1",
     "todomvc-app-css": "^2.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   }
 }
