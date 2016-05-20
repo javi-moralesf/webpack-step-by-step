@@ -13,6 +13,8 @@ module.exports = {
         loaders: [
             {test: /\.html$/, loaders: ['raw'], exclude: /node_modules/},
             {test: /\.css$/, loaders: ['style', 'css']},
+            { test: /\.png$/, loader: "url-loader?limit=100000000" },
+            { test: /\.jpg$/, loader: "file-loader" }
         ]
     }
 

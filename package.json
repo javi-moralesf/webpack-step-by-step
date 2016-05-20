@@ -9,6 +9,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
     "karma": "^0.13.22",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^1.0.1",
@@ -22,6 +23,7 @@
     "style-loader": "^0.13.1",
     "todomvc-app-css": "^2.0.1",
     "todomvc-common": "^1.0.1",
+    "url-loader": "^0.5.7",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   }
