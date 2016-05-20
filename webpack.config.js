@@ -11,7 +11,8 @@ module.exports = {
     },
     module: {
         loaders: [
-            {test: /\.html$/, loaders: ['raw'], exclude: /node_modules/}
+            {test: /\.html$/, loaders: ['raw'], exclude: /node_modules/},
+            {test: /\.css$/, loaders: ['style', 'css']},
         ]
     }
 
