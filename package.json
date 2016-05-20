@@ -2,16 +2,26 @@
   "private": true,
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server"
-  },
-  "dependencies": {
-    "todomvc-common": "^1.0.1",
-    "todomvc-app-css": "^2.0.1"
+    "dev": "webpack-dev-server",
+    "test": "karma start --single-run",
+    "test:watch": "karma start"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "css-loader": "^0.23.1",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-mocha": "^1.0.1",
+    "karma-sinon-chai": "^1.2.0",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.4.5",
     "raw-loader": "^0.5.1",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0",
     "style-loader": "^0.13.1",
+    "todomvc-app-css": "^2.0.1",
+    "todomvc-common": "^1.0.1",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   }
